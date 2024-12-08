@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleIndex.css">
+    <title>Sign-In</title>
+    <link rel="icon" href="Img/logo.png" type="image/png">
+    <script src="script/Script.js"></script>
+</head>
+
+<body bgcolor="">
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#aside">Contact</a></li>
+            <li></li>
+        </ul>
+        <img src="Img/logo.png" class="logo_TR">
+    </nav>
+
+
+    <aside class="sidebar" id="aside">
+        <ul>
+            <li>Profile</li>
+            <li><a href="https://www.facebook.com/profile.php?id=61560993684603"><img src="Img/facebook.png" class="logo"></a></li>
+            <li><a href="https://www.instagram.com/tn.gears/"><img src="Img/instagram.png" class="logo"></a></li>
+            <li><a href="https://www.tiktok.com/@tunisian.gears?lang=fr"><img src="Img/tiktok.png" class="logo"></a></li>
+            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=tunisian.gears@gmail.com"><img src="Img/gmail.png" class="logo"></a></li>
+        </ul>
+        <img src="Img/logo.png" class="logo_BL">
+    </aside>
+
+    <div>
+        <form  class="formS">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" class="inputS">
+            
+            <label for="surname">Surname :</label>
+            <input type="text" id="surname" name="surname" class="inputS">
+            
+            <label for="birthdate">Date de naissance :</label>
+            <input type="date" id="birthdate" name="birthdate" class="inputS">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="inputS">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="inputS">
+            
+            <label for="confirm-password">Confirmer Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" class="inputS">
+            
+            <label for="number">Mobile:</label>
+            <input type="number" id="number" name="number" placeholder="+216" pattern="\d{8}" class="inputS">
+            
+            <label for="ville">Ville:</label>
+            <input type="text" id="ville" name="ville" class="inputS">
+            
+            <label for="gouvernerat">Gouvernerat:</label>
+            <input type="text" id="gouvernerat" name="gouvernerat" class="inputS">
+            
+            <button type="button" onclick="SignIn()" class="B-SI">Sign-In</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Sayarti. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
